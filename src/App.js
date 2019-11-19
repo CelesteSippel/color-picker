@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import ChangeColor from './components/ChangeColor'
 
-class App extends Component {
-  render() {
-    return <HelloWorld />
-  }
+const App = () => {
+  return (
+    <div>
+      <nav>
+        <h1>Color Picker</h1>
+      </nav>
+      <ChangeColor />
+    </div>
+  )
 }
 
 export default App
