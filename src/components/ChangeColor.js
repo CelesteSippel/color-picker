@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 const ChangeColor = () => {
   const [hue, setHue] = useState(Math.floor(Math.random() * 360))
-  const [saturation, setSaturation] = useState(70)
-  const [lightness, setLightness] = useState(80)
+  const [saturation, setSaturation] = useState(0)
+  const [lightness, setLightness] = useState(0)
   return (
     <main>
       <section className="color-picker-display">
